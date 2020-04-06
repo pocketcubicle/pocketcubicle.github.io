@@ -1,0 +1,410 @@
+
+
+@font-face{
+	font-family: "OpenSansBold";
+	src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "OpenSansRegular";
+	src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+
+@font-face{
+	font-family: "OpenSansSemiBold";
+	src: url("fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "OpenSansRegular";
+	scroll-behavior: smooth;
+	line-height: 1.5;
+}
+
+
+/*header styles*/
+
+.header{
+	
+	height: 500px;
+	/* background-image: url('/assets/pict-02.jpg'); */
+	
+	background-position: 50%;
+	background-attachment: fixed;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.header__container{
+	
+		max-width: 1800px;
+		
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0.5em;
+		position: relative;
+		flex: 1;
+		
+}
+
+
+.header__container__logo{
+
+		display: inline-block;
+		
+		filter: invert(100%);
+}
+
+
+.header__container__text-block{
+	color: white;
+	position: absolute;
+	font-size: 1rem;
+	left: 50%;
+	top: 100px;
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+.header__container__text-block__title{
+	text-transform: uppercase;
+	font-family: "OpenSansBold";
+	position: relative;
+	background: linear-gradient(#D3CCE3,#E9E4F0);
+	background-clip: text;
+	color: transparent;
+	
+  	
+}
+
+.header__face{
+	
+	height: 100%;
+	width: 50vw;
+	background: url("./assets/pict-02_3.png");
+	background-size: cover;
+	
+	flex: 1;
+}
+
+.header__container__text-block__title::after{
+	content: "";
+	position: absolute;
+	bottom: -0.3em;
+	left: 33%;
+	width: 33%;
+	height: 2px;
+	background-color: white;
+}
+
+.header__container__text-block__description{
+	margin-top: 1.7em;
+	text-shadow: 2px 1px 1px black;
+}
+
+
+
+
+/*end header styles*/
+
+
+/* info section styles*/
+
+.info{
+	display: flex;
+	
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	flex-direction: row;
+	overflow: hidden;
+	justify-content: center;
+	
+}
+
+.info__container{
+	
+	max-width: 1800px;
+	
+	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 0.5em;
+	flex-direction: column;
+	
+}
+
+
+.slider{
+	width: 680px;
+	margin-top: 2em;
+	margin-bottom: 50px;
+	
+}
+
+.slider-image{
+	margin: auto;
+	height: 300px;
+	filter: grayscale(.5);
+}
+
+.slider-text{
+	display: flex;
+	justify-content: center;
+	
+	
+	text-align: center;
+
+	
+}
+
+.info__container__text-description{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.info__container__text-description p{
+	margin-top: 0.5em;
+}
+
+@media screen and (min-width: 1200px){
+	.info__container{
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+
+
+
+/* end of info section styles*/
+
+/* usecases style section*/
+
+
+.use-cases{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	background: linear-gradient(to right, #485563,#292E49);
+	
+}
+
+.use-cases__container{
+	max-width: 1800px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: white;
+	flex-direction: column;	
+	justify-content: flex-start;
+	align-items: center;
+	display: flex;
+	   
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.use-cases__container h2{
+	margin-top: 0.7em;
+	margin-bottom: 0.4em;
+}
+
+.use-cases__container__icon{
+
+	position: absolute;
+	left: -1.3em;
+	top: 0.5em;
+}
+
+@media screen and (min-width: 1200px){
+	.use-cases__container__icon{
+		left: -2em;
+	}
+}
+
+/*end of usecases section*/
+
+/* EXAMPLE style section*/
+
+.example{
+	display: flex;
+	
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	flex-direction: row;
+	overflow: hidden;
+	justify-content: center;
+	
+}
+
+.example__container{
+	
+	
+	
+	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 0.5em;
+	flex-direction: column;
+	
+}
+
+.example-cart{
+
+	width: 15em;
+	height: 30em;
+	box-shadow: 0 -1em 2em 0 rgba(0 ,0, 0, 0.8) ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 1s ease-in-out;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	border-radius: 1em;
+}
+
+.decrease-shadow{
+	box-shadow: 0 1em 1em 0 rgba(0 ,0, 0, 0.8) ;
+}
+
+
+.example-cart__icon-image{
+	transition: all 0.1s ease-in-out;
+}
+
+.example-cart__icon-image:hover{
+	color: #E9E4F0;
+}
+
+.example-cart__icon{
+	margin-top: 1em;
+}
+.example-cart__description{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.example__container__data__price-and-table{
+	margin: 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.example-table{
+	border: 1px solid grey;
+	border-collapse: collapse;
+	font-size: 0.5em;
+	
+
+}
+
+.example-table td {
+	border: 1px solid grey;
+	padding: 0.3em;
+}
+
+
+.example__container__data{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.example__container__data__price{
+	margin-left: 1em;
+}
+
+.example__container__data__price h2{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.example__container__data__price ul{
+	list-style-type: none;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.example__container__data__price ul li{
+	position: relative;
+}
+
+.example__container__data__price ul li::before{
+	position: absolute;
+	left: -1em;
+	content: "✓";
+}
+
+.example__contact-us{
+	position: relative;
+	display: flex;
+	align-self: flex-end;
+	margin-top: 2em;
+}
+.example__contact-us::before{
+	position: absolute;
+	content: "✉";
+	left: -1em;
+	bottom: 0;
+}
+
+
+@media screen and (min-width: 1200px){
+	.example__container__data{
+		flex-direction: row;
+	}
+	.example__container__data__price-and-table{
+		justify-content: space-around;
+	}
+}
+
+
+/*end of EXAMPLE section*/
+
+
+
+/* FOOTER styles section*/
+.footer{
+	display: flex;
+	
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	flex-direction: row;
+	overflow: hidden;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	height: 10em;
+}
+
+.footer__container{
+	
+	max-width: 1800px;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5em;
+	flex-direction: column;
+	
+}
+
+
+/*end of FOOTER styles section*/

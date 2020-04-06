@@ -1,0 +1,51 @@
+{
+  "title": "Valuable competition data made right",
+  "use_cases_header": "Use cases",
+ "use_cases_1_header": "Replace daunting human labour with automated service",
+ "use_cases_1_body": [
+ " If you're gathering your competition data manually or your employee is, then you're limited to less than a hundred of valuable data pieces per hour. And that's a waste of your most precious recource.",
+ " It's even worse when you do your competition irregularly.",
+ " We collect your competitor's data and provide it in the required format on a regular basis automatically, so the information needed is always at hand"],
+ "use_cases_2_header": "Know median competition prices to avoid benefit losses",
+ "use_cases_2_body": [
+  " When you're running a business in a competetive environment, make sure not to sell your product below market average.",
+  " Small hotels' owners might like the ability to check the competitors offers to match and gain from this knowledge.",
+  " Having competitive prices in this times gives you an advantage."
+
+ ],
+ "use_cases_3_header": "Track prices for the chosen categories and products to get the best price",
+ "use_cases_3_body": [" Are you buying a car? Are you getting an expensive tech gadget?",
+  " You can get the best price and know the price trend to benefit from it"],
+ "use_cases_4_header": "Keep posted on the pages' modifications",
+ "use_cases_4_body": [ " Know first hand about the benefits of new promotions, keep track of online contests.",
+  " You can get hourly updates on some pages and get notified when new promotions appear"],
+  "info_slider_1" : " We collect data of your competition and update it on a regular basis",
+  "info_slider_2" : " The data is packed with easy-to-use excel files (csv - comma separated value)",
+  "info_slider_3" : " We format and process data in the format best suited for you",
+  "info_description": [
+    "We provide a custom data-gathering solution specially for you. The site of your competition is handled personally by one our best data-expersts.",
+    "Usually the updates are collected on a weekly basis, but you can choose any time-frame that is best for you.",
+    "The collected data is stored in excel files. The format is a simple comma separated value, so it can be used by any computer user.",
+    "We can provide you with handy graphics showing data changes. So your business is always up-to-date with ongoing changes on the market and aware of your competition moves."
+  ],
+  "menu_item_services": "Services",
+  "menu_item_cases": "Use cases",
+  "menu_item_example": "Example and price",
+  "example_header": "Example",
+  "example_cart_header": "books.csv",
+  "example_cart_description": "This file contains first 100 lines of data from an online book store. Provided for demonstration purposes",
+  "footer_copyright": "© All rights reserved ",
+  "example_table_caption": "Collected data CSV file content snippet",
+  "example_list_item_1": "Unlimited data retention",
+  "example_list_item_2": "Customizable scheduling",
+  "example_list_item_3": "Cloud S3/Dropbox/Yandex storage",
+  "example_list_item_4": "Seamless IP rotation",
+  "example_list_item_5": "CAPTCHA support",
+  "example_list_item_6": "Multi-language support",
+  "example_list_item_7": "Custom plugins and add-ons",
+  "example_list_header": "Custom data collection service starting from $299",
+  "example_contact_us" : "Contact us for details"
+  
+
+}
+
